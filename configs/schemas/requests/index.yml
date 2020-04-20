@@ -1,0 +1,12 @@
+default:
+  description: Default
+  responses:
+    200:
+      description: OK
+      content:
+        application/json:
+          schema:
+            type: object
+            additionalProperties: false
+            properties:
+              welcome: { type: string }
